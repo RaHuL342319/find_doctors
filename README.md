@@ -5,11 +5,11 @@ This project is a Find Doctors application that allows users to search for docto
 
 **Step 1. Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/doctor-finder.git
+   git clone https://github.com/RaHuL342319/find_doctors.git
    ```
 **Step 2. Navigate to the project directory**:
 ```bash
-    cd doctor-finder
+    cd find_doctors
 ```
 **Step 3. Install dependencies**:
 ```bash
