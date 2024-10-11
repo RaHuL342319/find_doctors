@@ -1,7 +1,3 @@
-
-Here's a formatted version of your README.md file for your GitHub repository:
-# Find Doctors
-
 ## Overview
 This project is a Find Doctors application that allows users to search for doctors by specialty and location.
 
