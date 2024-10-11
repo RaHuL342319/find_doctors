@@ -1,0 +1,104 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif; /* Use a clean, modern font */
+  line-height: 1.6; /* Improve readability */
+  background-color: #f4f4f4; /* Light gray background for the page */
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1; /* Allow main content to grow and fill available space */
+  padding: 20px; /* Add padding for spacing */
+  max-width: 800px; /* Limit width for readability */
+  margin: 20px auto; /* Center content horizontally */
+  background-color: white; /* White background for content area */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Header styles */
+.header {
+  background-color: #4caf50; /* Green background color */
+  color: white; /* White text color */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out title and navigation */
+  align-items: center; /* Center items vertically */
+  padding: 15px 20px; /* Increased padding for better touch targets */
+  width: 100vw;
+}
+
+/* Responsive header styles */
+.header-nav ul {
+  list-style-type: none; /* Remove bullet points */
+  display: flex; /* Use flexbox for horizontal layout */
+}
+
+.header-nav li {
+  margin-left: 20px; /* Space between navigation items */
+}
+
+/* Heading styles */
+h1 {
+  font-size: 28px; /* Larger font size for main heading */
+  color: #333; /* Dark text color for contrast */
+}
+
+/* Link styles */
+a {
+  color: white; /* White text color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; /* Dark footer background */
+  color: white; /* White text color */
+  text-align: center; /* Center text */
+  padding: 10px 0; /* Padding for top and bottom */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack header elements vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .header-nav ul {
+    flex-direction: column; /* Stack nav items vertically */
+    padding: 10px 0; /* Add padding for spacing */
+  }
+
+  .header-nav li {
+    margin: 5px 0; /* Adjust margin for stacked items */
+  }
+
+  .main-content {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px; /* Slightly smaller heading font size */
+  }
+
+  .header {
+    padding: 10px; /* Reduce padding for header */
+  }
+
+  .header-nav li {
+    margin: 3px 0; /* Further reduce margin for nav items */
+  }
+}
